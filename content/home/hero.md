@@ -12,7 +12,7 @@ cta:
 widget_id: Intro
 headless: true
 weight: 10
-title: Online Course Template
+title: Cours de maths du supérieur
 cta_alt:
   ? url
   ? label
