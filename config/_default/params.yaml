@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: custom
+theme: Dark
 day_night: false
-font: ''
+font: 'Minimal'
 font_size: L
 
 # SEO
@@ -20,13 +20,13 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on the forum
-    link: 'https://github.com/wowchemy/wowchemy-hugo-modules/discussions'
+#email: test@example.org
+#appointment_url: 'https://calendly.com'
+#contact_links:
+#  - icon: comments
+#    icon_pack: fas
+#    name: Discuss on the forum
+#    link: 'https://github.com/wowchemy/wowchemy-hugo-modules/discussions'
 
 # Site header
 
