@@ -47,10 +47,10 @@ address_format: en-us
 
 # Site features
 
-highlight: false
-highlight_languages: []
-math: false
-diagram: false
+highlight: true
+highlight_languages: ["C", "Python"]
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''
