@@ -22,6 +22,13 @@ $$
 f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
 $$
 
+{{< thm/thm type="theorem" name="of me" label="thm:me" >}}
+This theorem proves that covfefe.
+{{< /thm/thm >}}
+{{< thm/proof >}}
+The proof is very good. I like proof. I have big proof.
+{{< /thm/proof >}}
+
 {{< callout note >}}
 The parameter $\mu$ is the mean or expectation of the distribution.
 $\sigma$ is its standard deviation.
