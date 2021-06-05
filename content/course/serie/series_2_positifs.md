@@ -1,6 +1,6 @@
 ---
 title: Séries à termes positifs
-linkTitle: Séries
+summary: Le cas le plus simple dans l'étude des séries ! On établit ici des critères auxquels on va souvent se ramener.
 date: '2021-06-04'
 type: book
 ---
@@ -53,21 +53,21 @@ Si  $\sum a_n$  est absolument convergente, alors elle converge.
 
 {{< thm/thm type="theorem" name="Critère de Cauchy" label="Critère de Cauchy" >}}
 
-On suppose qu'il existe $\rho \in [0, 1[$ tel que pour presque tout $n \in \mathbb{N}, \sqrt[n]{|a_n}| \leq \rho$ alors  $\sum a_n$ converge.
+On suppose qu'il existe $\rho \in [0, 1[$ tel que pour presque tout $n \in \mathbb{N}, \sqrt[n]{|a_n}| \leq \rho$ alors  $\sum a_n$ converge. <br>
 En particulier, si $\lim_{n \rightarrow +\infty} \sqrt[n]{|a_n}| < 1$ alors $\sum a_n$ converge.
 
 {{< /thm/thm >}}
 
 {{< thm/thm type="theorem" name="Critère de D'Alembert" label="Critère de D'Alembert" >}}
 
-On suppose qu'il existe $\rho \in [0, 1[$ tel que pour presque tout $n \in \mathbb{N}, |\frac{a_{n+1}}{a_n}| \leq \rho$, alors  $\sum a_n$ converge.
+On suppose qu'il existe $\rho \in [0, 1[$ tel que pour presque tout $n \in \mathbb{N}, |\frac{a_{n+1}}{a_n}| \leq \rho$, alors  $\sum a_n$ converge. <br>
 En particulier, si $\lim_{n \rightarrow +\infty} |\frac{a_{n+1}}{a_n}| < 1$ alors $\sum a_n$ converge.
 
 {{< /thm/thm >}}
 
 ## La réponse à une grande question:
 
-L'ordre dans lequel on somme les termes d'une série a-t-il un impact sur la convergence de la série ? Plus formellement, si $\sum a_n$ converge, est-ce que pour chaque bijection $\sigma: \mathbb{N} \longrightarrow \mathbb{N}$ la série $\sum a_{\sigma(n)}$ (qu'on appelle "réarrangement de $\sum a_n$") est convergente ? <br> On pourrait penser que oui puisque l'addition est commutatif mais la réponse est en fait plus complexe.
+L'ordre dans lequel on somme les termes d'une série a-t-il un impact sur la convergence de la série ?<br>Plus formellement, si $\sum a_n$ converge, est-ce que pour chaque bijection $\sigma: \mathbb{N} \longrightarrow \mathbb{N}$ la série $\sum a_{\sigma(n)}$ (qu'on appelle "réarrangement de $\sum a_n$") est convergente ? <br> On pourrait penser que oui puisque l'addition est commutatif mais la réponse est en fait plus complexe.
 
 {{< thm/thm type="theorem" name="Théorème de réarrangement de Dirichlet" label="Théorème de réarrangement de Dirichlet" >}}
 

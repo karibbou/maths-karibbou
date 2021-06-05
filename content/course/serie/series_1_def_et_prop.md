@@ -1,6 +1,7 @@
 ---
 date: 2021-06-05
 title: Définitions et premiers résultats
+summary: Qu'est ce qu'un série ? Comment définir sa convergence formellement ?
 type: book
 ---
 

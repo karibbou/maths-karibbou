@@ -8,12 +8,12 @@ content:
   page_type: book
   filter_default: 0
   filter_button:
-    - name: All Courses
+    - name: Tous les cours
       tag: "*"
-    - name: Data Visualization
-      tag: Data Visualization
-    - name: Statistics
-      tag: Statistics
+    - name: Analyse
+      tag: Analyse
+    - name: Algèbre linéaire
+      tag: "Algèbre linéaire"
 widget_id: intro_liste_traites
 design:
   columns: "1"
