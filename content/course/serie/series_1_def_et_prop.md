@@ -24,7 +24,7 @@ La série $\sum u_n$ converge si et seulement si : $\forall \varepsilon > 0, \ex
 
 
 
-{{< thm/thm type="theoreme" name="condition nécessaire de convergence" label=" >}} 
+{{< thm/thm type="theoreme" name="condition nécessaire de convergence" label="" >}} 
 
 Si la série $\sum u_n$ converge, alors $\lim_{n \rightarrow +\infty}u_n  = 0$ 
 
